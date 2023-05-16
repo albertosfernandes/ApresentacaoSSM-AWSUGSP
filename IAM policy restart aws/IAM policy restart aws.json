@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ssm:UpdateMaintenanceWindow",
+                "ssm:StartAutomationExecution",
+                "ec2:StartInstances",
+                "ssm:UpdateInstanceInformation",
+                "ssm:*",
+                "ec2:StopInstances",
+                "ssm:UpdateMaintenanceWindowTask",
+                "ssm:UpdateMaintenanceWindowTarget",
+                "ec2:DescribeInstanceStatus"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
